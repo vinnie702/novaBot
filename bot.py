@@ -18,7 +18,7 @@ async def on_ready():
 
     print(bot.user.name)
     print(bot.user.id)
-    await bot.change_presence(game=discord.Game(name='Star Citizen someday'))
+    await bot.change_presence(game=discord.Game(name='Can we get 4.0 yet?'))
     print('Loading cogs...')
     if __name__ == '__main__':
         modules_loaded = 0
